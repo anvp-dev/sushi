@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Это описание вашей страницы">
+    <meta name="keywords" content="Ключевые слова страницы...">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="stylesheet" href="css/style.min.css?_v=20220912074939">
+    <link rel="stylesheet" href="style.css?_v=20220912074939">
+    <script src="js/app.min.js?_v=20220912074939" defer></script>
+    <title>@@Sushi</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+    <div class="header__container">
+        <div class="header__content">
+            <div class="header__logo">
+                SUSHIMAN
+            </div>
+            <nav class="header__nav">
+                <ul class="nav-menu">
+                    <li class="nav-menu__item">
+                        <a class="nav-menu__link" href="#">
+                            Меню
+                        </a>
+                    </li>
+                    <li class="nav-menu__item">
+                        <a class="nav-menu__link" href="#">
+                            Услуги
+                        </a>
+                    </li>
+                    <li class="nav-menu__item">
+                        <a class="nav-menu__link" href="#">
+                            О нас
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <button class="burger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </div>
+</header>
+        <main class="page">
+            <div class="container-fluid">
+                <section class="hero">
+                    <div class="hero__side">
+                        <img class="hero__side-img" src="./img/hero/hero-img.svg" alt="китайские палочки держат суши"
+                            width="685" height="638">
+                        <p class="hero__side-text-decor">
+                            日 本 食
+                        </p>
+                        <p class="hero__side-text">
+                            日 本 食
+                        </p>
+                    </div>
+                    <div class="hero__main">
+                        <div class="hero-content">
+                            <h1 class="hero-content__title title title--lg">
+                                Почувствуйте вкус японской еды
+                            </h1>
+                            <p class="hero-content__text text">
+                                Почувствуйте вкус самых популярных японских продуктов.
+                            </p>
+                            <div class="hero-content__buttons">
+                                <a class="hero-content__link btn btn--fill" href="#">Сделать заказ</a>
+                                <button class="hero-content__btn btn">
+                                    <!-- <div class="hero-content__btn-icon"> -->
+                                    <svg class="hero-content__btn-icon">
+                                        <use xlink:href="img/icons/icons.svg#play"></use>
+                                    </svg>
+                                    <!-- </div> -->
+
+                                    Как сделать заказ
+                                </button>
+                            </div>
+                        </div>
+                        <div class="hero-feedback">
+                            <div class="hero-feedback__row">
+                                <div class="hero-feedback__column">
+                                    <div class="hero-feedback__count">24K+</div>
+                                    <div class="hero-feedback__text text">Счастливых клиентов</div>
+                                </div>
+                                <div class="hero-feedback__column">
+                                    <img class="hero-feedback__customer" src="./img/hero/customer.png"
+                                        alt="женщина в желтой рубашке" width="48" height="48">
+                                    <p class="hero-feedback__review text--sm">
+                                        “Это лучшая японская служба доставки продуктов питания”
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- About Us  -->
+                <section class="about">
+                    <div class="about__side">
+                        <a class="about__side-btn btn btn--fill" href="#">
+                            Узнать больше
+                            <img class="about__side-btn-icon" src="./img/icons/arrow.svg" alt="указатель" width="12"
+                                height="12">
+                        </a>
+                        <div class="about__side-item">
+                            <p class="about__side-text-decor">
+                                ツ ナ
+                            </p>
+                        </div>
+                        <div class="about__side-item">
+                            <p class="about__side-text-decor about__side-text-decor--shift">
+                                エ ビ                                 
+                            </p>
+                        </div>
+                    </div>
+                    <div class="about__main">
+                        <div class="about-content">
+                            <h2 class="about-content__title title--sm">
+                                О нас / 私たちに関しては
+                            </h2>
+                            <p class="about-content__text text--lg">
+                                Наша миссия - принести вам истинные японские вкусы.
+                            </p>
+                            <p class="about-content__text text">
+                                Мы будем продолжать предоставлять опыт Omotenashi, японский менталитет гостеприимства, с
+                                нашими магазинами и ресторанами для наших клиентов.
+                            </p>
+                        </div>
+                    </div>
+                </section>
+                <!-- Popular -->
+                <section class="popular">
+                    <div class="popular__decor popular__decor--top">
+                        日 本 食
+                    </div>
+                    <h2 class="popular__title title--md title--white">
+                        Популярные блюда / 人気
+                    </h2>
+                    <div class="swiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="card">
+                                    <img class="card__img" src="./img/popular/chezu.svg" alt="суши чиз" width="135"
+                                        height="84">
+                                    <p class="card__name">
+                                        Суши Чиз
+                                    </p>
+                                    <div class="card__wrap">
+                                        <div class="card__rating">
+                                            <svg class="">
+                                                <use xlink:href="img/icons/icons.svg#star"></use>
+                                            </svg>
+                                            4.7
+                                        </div>
+                                        <div class="card__price">
+                                            430p.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card">
+                                    <img class="card__img" src="./img/popular/original.svg" alt="оригинальные суши">
+                                    <p class="card__name">
+                                        Оригинальные Суши
+                                    </p>
+                                    <div class="card__wrap">
+                                        <div class="card__rating">
+                                            <svg class="">
+                                                <use xlink:href="img/icons/icons.svg#star"></use>
+                                            </svg>
+                                            4.8
+                                        </div>
+                                        <div class="card__price">
+                                            540p.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card">
+                                    <img class="card__img" src="./img/popular/ramen.svg" alt="блюдо рамен">
+                                    <p class="card__name">
+                                        Рамен
+                                    </p>
+                                    <div class="card__wrap">
+                                        <div class="card__rating">
+                                            <svg class="">
+                                                <use xlink:href="img/icons/icons.svg#star"></use>
+                                            </svg>
+                                            4.7
+                                        </div>
+                                        <div class="card__price">
+                                            480p.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card">
+                                    <img class="card__img" src="./img/popular/udon.svg" alt="блюдо удон">
+                                    <p class="card__name">
+                                        Удон
+                                    </p>
+                                    <div class="card__wrap">
+                                        <div class="card__rating">
+                                            <svg class="">
+                                                <use xlink:href="img/icons/icons.svg#star"></use>
+                                            </svg>
+                                            4.8
+                                        </div>
+                                        <div class="card__price">
+                                            440p.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card">
+                                    <img class="card__img" src="./img/popular/danggo.svg" alt="блюдо данго">
+                                    <p class="card__name">
+                                        Дангго
+                                    </p>
+                                    <div class="card__wrap">
+                                        <div class="card__rating">
+                                            <svg class="">
+                                                <use xlink:href="img/icons/icons.svg#star"></use>
+                                            </svg>
+                                            4.7
+                                        </div>
+                                        <div class="card__price">
+                                            340p.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-button-prev focus-light">
+                        <img src="./img/icons/slider-arrow.svg" alt="предыдущий слайдер" width="37" height="38">
+                    </div>
+                    <div class="swiper-button-next focus-light">
+                        <img src="./img/icons/slider-arrow.svg" alt="следующий слайдер" width="37" height="38">
+                    </div>
+
+                    <a class="populat__btn btn btn--fill focus-light" href="#">
+                        Узнать больше
+                    </a>
+
+                    <p class="popular__decor popular__decor--bottom">
+                        日 本 食
+                    </p>
+                </section>
+                <!-- Trend -->
+                <section class="trend">
+                    <div class="trend__center">
+                        Открой для себя
+                    </div>
+                    <div class="trend__row">
+                        <div class="trend__column">
+                            <div class="trend__content">
+                                <h2 class="trend__title title--sm">
+                                    В тренде / トレンド
+                                </h2>
+                                <h3 class="trend__subtitle title--md">
+                                    Японские Суши
+                                </h3>
+                                <p class="trend__text">
+                                    Почувствуйте вкус самых вкусных суши
+                                </p>
+                                <ul class="trend__list">
+                                    <li class="trend__list-tem">
+                                        Маки
+                                    </li>
+                                    <li class="trend__list-tem">
+                                        Нигири
+                                    </li>
+                                    <li class="trend__list-tem">
+                                        Хамачи
+                                    </li>
+                                    <li class="trend__list-tem">
+                                        Темаки
+                                    </li>
+                                    <li class="trend__list-tem">
+                                        Урамаки
+                                    </li>
+                                    <li class="trend__list-tem">
+                                        Инари
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="trend__column trend__column--ill">
+                            <div class="trend__decor trend__decor--right">
+                                ツ ナ
+                            </div>
+                            <img class="trend__img trend__img--sushi" src="./img/trend/sushi.svg" alt="кусочек суши"
+                                width="254" height="260">
+                        </div>
+                    </div>
+                    <div class="trend__row">
+                        <div class="trend__column">
+                            <div class="trend__content">
+                                <h2 class="trend__title title--sm">
+                                    В тренде / トレンド
+                                </h2>
+                                <h3 class="trend__subtitle title--md">
+                                    Японские Напитки
+                                </h3>
+                                <p class="trend__text">
+                                    Почувствуйте вкус самых вкусных японских напитков
+                                </p>
+                                <ul class="trend__list">
+                                    <li class="trend__list-tem">
+                                        Амадзакэ
+                                    </li>
+                                    <li class="trend__list-tem">
+                                        Гёкуро
+                                    </li>
+                                    <li class="trend__list-tem">
+                                        Чай Сакура
+                                    </li>
+                                    <li class="trend__list-tem">
+                                        Рамунэ
+                                    </li>
+                                    <li class="trend__list-tem">
+                                        Тамарёкутя
+                                    </li>
+                                    <li class="trend__list-tem">
+                                        Гэммайтя
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="trend__column trend__column--ill trend__column--order">
+                            <div class="trend__decor trend__decor--left">
+                                飲 む
+                            </div>
+                            <img class="trend__img trend__img--tea" src="./img/trend/tea.svg" alt="чашка чая"
+                                width="209" height="280">
+                        </div>
+                    </div>
+                </section>
+                <!-- Offer -->
+                <section class="offer">
+                    <div class="offer__decor offer__decor--left">
+                        寿 司 エ ナ ク
+                    </div>
+                    <div class="offer__decor offer__decor--right">
+                        日 本 食
+                    </div>
+                    <div class="offer__content">
+                        <h2 class="offer__title title--lg title--white">
+                            Получать предложения на почту
+                        </h2>
+                        <p class="offer__text">
+                            Подпишись на наши новости
+                        </p>
+                        <form class="offer__form form-offer">             
+                                <input class="form-offer__input" type="email" placeholder="Введите почту">
+                                <button class="form-offer__btn focus-light">Получать</button>                       
+                        </form>
+                    </div>
+                </section>
+            </div>
+        </main>
+        <!-- FOOTER -->
+<footer class="footer">
+    <div class="footer__container">
+        <a href="#" class="footer__logo">
+            <span>sushi</span>man
+        </a>
+        <ul class="footer__nav">
+            <li class="footer__nav-item">
+                <a class="footer__nav-link" href="#">меню</a>
+            </li>
+            <li class="footer__nav-item">
+                <a class="footer__nav-link" href="#">еда</a>
+            </li>
+            <li class="footer__nav-item">
+                <a class="footer__nav-link" href="#">услуги</a>
+            </li>
+            <li class="footer__nav-item">
+                <a class="footer__nav-link" href="#">о нас</a>
+            </li>
+        </ul>
+        <ul class="footer__social social">
+            <li class="social__item">
+                <a class="social__link" href="#" aria-label="facebook">
+                    <svg class="icon-facebook">
+                        <use xlink:href="img/icons/icons.svg#facebook"></use>
+                    </svg>
+                </a>
+            </li>
+            <li class="social__item">
+                <a class="social__link" href="#" aria-label="twitter">
+                    <svg class="icon-twitter">
+                        <use xlink:href="img/icons/icons.svg#twitter"></use>
+                    </svg>
+                </a>
+            </li>
+            <li class="social__item">
+                <a class="social__link" href="#" aria-label="instagram">
+                    <svg class="icon-instagram">
+                        <use xlink:href="img/icons/icons.svg#instagram"></use>
+                    </svg>
+                </a>
+            </li>
+        </ul>
+    </div>
+</footer>
+    </div>
+</body>
+
+</html>
